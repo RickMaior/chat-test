@@ -1,0 +1,22 @@
+{
+  "name": "chat-test",
+  "version": "1.0.0",
+  "description": "teste de chat com  socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickMaior/chat-test.git"
+  },
+  "author": "rick maior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RickMaior/chat-test/issues"
+  },
+  "homepage": "https://github.com/RickMaior/chat-test#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
