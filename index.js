@@ -3,11 +3,11 @@ var http = require('http').createServer(app);
 var io = require('socket.io')(http);
 var port = process.env.PORT || 3000;
 
-app.get('/chat-test', function (req, res) {
+app.get('/', function (req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
-app.get('/chat-test/chat', function (req, res) {
+app.get('/chat', function (req, res) {
   res.sendFile(__dirname + '/chat.html');
 });
 
