@@ -58,6 +58,12 @@ io.on("connection", function(socket) {
   });
 });
 
+app.get("*", function(req, res) {
+  res.status(404)
+  res.sendFile(__dirname + "/404.html");
+});
+
+
 http.listen(port, function() {
   console.log("listening on *:" + port);
 });
