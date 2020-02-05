@@ -4,36 +4,153 @@
 <head>
   <title>My webPage</title>
   <link rel="stylesheet" href="/css/main.css" type="text/css" />
-  
+  <link rel="stylesheet" href="/css/loader.css" type="text/css" />
+
 
 </head>
 
-<body>
-  <div style="  height: 90vh; width: 100vw;"> 
-    <h1>Welcome to my website</h1>
-    (page intro)
-  </div>
-  <nav>
+<body onload="myFunction()" style="margin:0;">
 
-    <ul>
-      <li><a class="active" href="#" title="Home page">Home</a></li>
-      <li> <a href="/chat" title="The page where you can chat"> Chat page </a></li>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">External Links</a>
-        <div class="dropdown-content">
-          <a href="https://discord.gg/cCbDbFK" title="Join Discord server" target="_blank"> Discord </a>
-          <a href="https://www.twitch.tv/rickmaior" title="Twitch page" target="_blank"> Twitch </a>
-        </div>
-      </li>
-    </ul>
+  <div id="loader"  >
+    <div class="wrapper">
+		<div class="line line1">
+			<span class="circle circle-top"></span>
+			<div class="dotted">
+				<span class="dot dot-top"></span>
+				<span class="dot dot-middle-top"></span>
+				<span class="dot dot-middle-bottom"></span>
+				<span class="dot dot-bottom"></span>
+			</div>
+			<span class="circle circle-bottom"></span>
+		</div>
+		<div class="line line2">
+			<span class="circle circle-top"></span>
+			<div class="dotted">
+				<span class="dot dot-top"></span>
+				<span class="dot dot-middle-top"></span>
+				<span class="dot dot-middle-bottom"></span>
+				<span class="dot dot-bottom"></span>
+			</div>
+			<span class="circle circle-bottom"></span>
+		</div>
+		<div class="line line3">
+			<span class="circle circle-top"></span>
+			<div class="dotted">
+				<span class="dot dot-top"></span>
+				<span class="dot dot-middle-top"></span>
+				<span class="dot dot-middle-bottom"></span>
+				<span class="dot dot-bottom"></span>
+			</div>
+			<span class="circle circle-bottom"></span>
+		</div>
+		<div class="line line4">
+			<span class="circle circle-top"></span>
+			<div class="dotted">
+				<span class="dot dot-top"></span>
+				<span class="dot dot-middle-top"></span>
+				<span class="dot dot-middle-bottom"></span>
+				<span class="dot dot-bottom"></span>
+			</div>
+			<span class="circle circle-bottom"></span>
+		</div>
+		<div class="line line5">
+			<span class="circle circle-top"></span>
+			<div class="dotted">
+				<span class="dot dot-top"></span>
+				<span class="dot dot-middle-top"></span>
+				<span class="dot dot-middle-bottom"></span>
+				<span class="dot dot-bottom"></span>
+			</div>
+			<span class="circle circle-bottom"></span>
+		</div>
+		<div class="line line6">
+			<span class="circle circle-top"></span>
+			<div class="dotted">
+				<span class="dot dot-top"></span>
+				<span class="dot dot-middle-top"></span>
+				<span class="dot dot-middle-bottom"></span>
+				<span class="dot dot-bottom"></span>
+			</div>
+			<span class="circle circle-bottom"></span>
+		</div>
+		<div class="line line7">
+			<span class="circle circle-top"></span>
+			<div class="dotted">
+				<span class="dot dot-top"></span>
+				<span class="dot dot-middle-top"></span>
+				<span class="dot dot-middle-bottom"></span>
+				<span class="dot dot-bottom"></span>
+			</div>
+			<span class="circle circle-bottom"></span>
+		</div>
+		<div class="line line8">
+			<span class="circle circle-top"></span>
+			<div class="dotted">
+				<span class="dot dot-top"></span>
+				<span class="dot dot-middle-top"></span>
+				<span class="dot dot-middle-bottom"></span>
+				<span class="dot dot-bottom"></span>
+			</div>
+			<span class="circle circle-bottom"></span>
+		</div>
+		<div class="line line9">
+			<span class="circle circle-top"></span>
+			<div class="dotted">
+				<span class="dot dot-top"></span>
+				<span class="dot dot-middle-top"></span>
+				<span class="dot dot-middle-bottom"></span>
+				<span class="dot dot-bottom"></span>
+			</div>
+			<span class="circle circle-bottom"></span>
+		</div>
+		<div class="line line10">
+			<span class="circle circle-top"></span>
+			<div class="dotted">
+				<span class="dot dot-top"></span>
+				<span class="dot dot-middle-top"></span>
+				<span class="dot dot-middle-bottom"></span>
+				<span class="dot dot-bottom"></span>
+			</div>
+			<span class="circle circle-bottom"></span>
+		</div>
+		<div class="line line11">
+			<span class="circle circle-top"></span>
+			<div class="dotted">
+				<span class="dot dot-top"></span>
+				<span class="dot dot-middle-top"></span>
+				<span class="dot dot-middle-bottom"></span>
+				<span class="dot dot-bottom"></span>
+			</div>
+			<span class="circle circle-bottom"></span>
+		</div>
+	</div></div>
+
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+    <div style="  height: 90vh; width: 100vw;">
+      <h1>Welcome to my website</h1>
+      (page intro)
+    </div>
+    <nav>
+
+      <ul>
+        <li><a class="active" href="#" title="Home page">Home</a></li>
+        <li> <a href="/chat" title="The page where you can chat"> Chat page </a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">External Links</a>
+          <div class="dropdown-content">
+            <a href="https://discord.gg/cCbDbFK" title="Join Discord server" target="_blank"> Discord </a>
+            <a href="https://www.twitch.tv/rickmaior" title="Twitch page" target="_blank"> Twitch </a>
+          </div>
+        </li>
+      </ul>
 
 
-  </nav>
+    </nav>
 
-  <div class="container">
+    <div class="container">
 
-    
-    <!-- <section class='child' style="background-color: red;" id="section1">Info1<a href="#section2">next</a></section>
+
+      <!-- <section class='child' style="background-color: red;" id="section1">Info1<a href="#section2">next</a></section>
     <section class='child' id="section2">Info2 <a href="#section1">prev</a> <a href="#section3">next</a></section>
     <section class='child' style="background-color: red;" id="section3">Info3 <a href="#section2">prev</a> <a href="#section4">next</a></section>
     <section class='child' id="section4">Info4</section>
@@ -46,11 +163,24 @@
     <section class='child' style="background-color: red;" id="section11"> Info11</section>
     <section class='child' id="section12">Info12</section>
     <section class='child' style="background-color: red;" id="section13">Info13</section> -->
-    
 
-    
+
+
+    </div>
   </div>
 
+  <script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
 </body>
 
 </html>

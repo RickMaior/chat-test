@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d98f3c99-2d96-491e-9ae0-a23daa34e438" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../discord/discord bot" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,6 +66,7 @@
       <workItem from="1580436902289" duration="225000" />
       <workItem from="1580492256643" duration="38000" />
       <workItem from="1580497737735" duration="1382000" />
+      <workItem from="1580771373309" duration="69000" />
     </task>
     <servers />
   </component>
@@ -80,14 +81,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-309.1920.1040@0.0.1366.728" timestamp="1580497892777" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1580492287491">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1580771439757">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728/-1920.-309.1920.1040@0.0.1366.728" timestamp="1580492287491" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1580492258712">
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728/-1920.-309.1920.1040@0.0.1366.728" timestamp="1580771439757" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1580771391627">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-309.1920.1040@0.0.1366.728" timestamp="1580492258712" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-309.1920.1040@0.0.1366.728" timestamp="1580771391627" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1580437090873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
