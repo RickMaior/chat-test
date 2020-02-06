@@ -64,13 +64,10 @@ nav .dropdown:hover .dropdown-content {
 
 nav .active {
   background-color: #4CAF50;
-<<<<<<< HEAD
+
   pointer-events: none;
   cursor: default;
-=======
-     pointer-events: none;
-    cursor: default;
->>>>>>> 65eb4eda5a81c06aac26f2666cbf85abbf96be84
+
 }
 /*fim de codigo  da nav */
 
