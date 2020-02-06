@@ -1,0 +1,18 @@
+<!-- views/partials/header.ejs -->
+
+<nav>
+
+    <ul>
+        <li><a href="/"  title="Home page" class="<%= page === 'home' ? 'active' : '' %>" >Home</a></li>
+        <li><a href="/chat" title="The page where you can chat" class="<%= page === 'chat' ? 'active' : '' %>"> Chat page </a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">External Links</a>
+            <div class="dropdown-content">
+                <a href="https://discord.gg/cCbDbFK" title="Join Discord server" target="_blank"> Discord </a>
+                <a href="https://www.twitch.tv/rickmaior" title="Twitch page" target="_blank"> Twitch </a>
+            </div>
+        </li>
+    </ul>
+
+
+</nav>

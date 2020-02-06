@@ -1,0 +1,45 @@
+<!-- views/pages/chat.ejs -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <%- include ("../partials/head") %>
+</head>
+
+<body  onload="myFunction()" style="margin:0;">
+
+  <%- include ("../partials/loader")%>
+
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+    <nav>
+      <%- include ("../partials/header")%>
+    </nav>
+    <div id="chatPage" dir="ltr">
+      <ul id="messages"></ul>
+    </div>
+    <form action="">
+      <input id="m" autocomplete="off" /><button>Send</button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script>
+      $(function () {
+        var socket = io();
+        $("form").submit(function (e) {
+          e.preventDefault(); // prevents page reloading
+          socket.emit("message sended", $("#m").val());
+          $("#m").val("");
+          return false;
+        });
+        socket.on("chat message", function (msg) {
+          $("#messages").append($("<li>").text(msg));
+          window.scrollTo(0, document.body.scrollHeight);
+        });
+      });
+    </script>
+  </div>
+
+</body>
+
+</html>

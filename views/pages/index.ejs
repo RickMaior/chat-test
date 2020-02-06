@@ -1,0 +1,48 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<%- include ("../partials/head") %>
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+
+	<%- include ("../partials/loader")%>
+
+	<div style="display:none;" id="myDiv" class="animate-bottom">
+		<div style="  height: 90vh; width: 100vw;">
+			<h1>Welcome to my website</h1>
+			(page intro)
+		</div>
+		<nav>
+			<%- include ("../partials/header")%>
+		</nav>
+
+		<div class="container">
+
+
+	<section class='child' style="background-color: red;" id="section1">Info1<a href="#section2">next</a></section>
+    <section class='child' style="background-color: green;"id="section2">Info2 <a href="#section1">prev</a> <a href="#section3">next</a></section>
+    <section class='child' style="background-color: blue;" id="section3">Info3 <a href="#section2">prev</a> <a href="#section4">next</a></section>
+    <section class='child' style="background-color: red;"id="section4">Info4 <a href="#section3">prev</a> <a href="#section5">next</a></section>
+    <section class='child' style="background-color: green;" id="section5">Info5 <a href="#section4">prev</a> <a href="#section6">next</a></section>
+    <section class='child' style="background-color: blue;" id="section6">Info6 <a href="#section5">prev</a> <a href="#section7">next</a></section>
+    <section class='child' style="background-color: red;" id="section7">Info7 <a href="#section6">prev</a> <a href="#section8">next</a></section>
+    <section class='child' style="background-color: green;" id="section8">Info8 <a href="#section7">prev</a> <a href="#section9">next</a></section>
+    <section class='child' style="background-color: blue;" id="section9">Info9 <a href="#section8">prev</a> <a href="#section10">next</a></section>
+    <section class='child' style="background-color: red;" id="section10">Info10 <a href="#section9">prev</a> <a href="#section11">next</a></section>
+    <section class='child' style="background-color: green;" id="section11"> Info11 <a href="#section10">prev</a> <a href="#section12">next</a></section>
+    <section class='child' style="background-color: blue;" id="section12">Info12 <a href="#section11">prev</a> <a href="#section13">next</a></section>
+    <section class='child' style="background-color: red;" id="section13">Info13 <a href="#section12">prev</a></section>
+
+
+
+		</div>
+	</div>
+
+
+</body>
+
+</html>
